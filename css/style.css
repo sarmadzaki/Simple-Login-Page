@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'helvetica', sans-serif;
+}
+.left-col{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7 url(../img/bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.right-col{
+    width: 75%;
+    height: 60%;
+    background: #f9f9f9;
+    right: 170;
+    position: absolute;
+    opacity: 0.83;
+    top: 35;
+}
+.content{
+    width: 50%;
+    margin: 0 auto;
+    top: 25%;
+    position: absolute;
+    left: 48%;
+    margin-left: -125px;
+}
+.content h1{
+    color: #03A9f4;
+    font-weight: 300;
+    font-size: 40px;
+}
+.right-col input{
+    display: block;
+    width: 100%;
+    margin: 17px auto;
+    border:0;
+    border-bottom: 2px solid #e7e7e9;
+    padding: 13px;
+    font-size: 17px;
+    outline: 0;
+}
+.right-col button{
+    background-color: #03A9f4;
+    color: #fff;
+    font: 600 16px sans-serif;
+    width: 100px;
+    padding: 15px;
+    outline: 0;
+    border:0px;
+    margin-top: 10px;
+    border-radius: 3px; 
+}
+.right-col button:hover{
+    background: #0288D1;
+    box-shadow: 0 4px 7px rgba(0,0,0, 0.1), 0 3px 6px rgba(0,0, 0, 0.1);
+
+}
+.right-col input{
+    background: #eee;
+    padding-left: 45px;
+}
+.right-col input[name="username"]{
+    background: transparent url(../img/user.jpg) no-repeat;
+    background-position: 10px 50%;
+    color: #151718;
+    font: 750 21px helvetica;
+}
+.right-col input[name="password"]{
+    background: transparent url(../img/password.jpg) no-repeat;
+    background-position: 10px 50%;
+    color: #151718;
+    font: 750 21px helvetica; 
+}
+ul{list-style-type: none;
+float: left;}
